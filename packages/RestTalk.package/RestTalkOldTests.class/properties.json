@@ -1,0 +1,14 @@
+{
+	"category" : "RestTalk-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RestTalkOldTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

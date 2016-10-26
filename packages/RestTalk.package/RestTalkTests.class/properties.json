@@ -1,0 +1,17 @@
+{
+	"category" : "RestTalk-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"projectName",
+		"jira",
+		"epicNameCustomFieldName",
+		"epicCustomFields" ],
+	"name" : "RestTalkTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

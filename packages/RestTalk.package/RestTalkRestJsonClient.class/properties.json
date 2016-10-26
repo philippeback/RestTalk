@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "PhilippeBack 10/26/2016 17:33",
+		"DefaultConnectionSpec" ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"password",
-		"username",
-		"enpointUrl" ],
-	"name" : "RestTalk",
+		"httpClient",
+		"connectionSpec" ],
+	"name" : "RestTalkRestJsonClient",
 	"pools" : [
 		 ],
 	"super" : "Object",

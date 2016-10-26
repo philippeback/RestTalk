@@ -1,0 +1,1 @@
+Specific exception for REST calls
