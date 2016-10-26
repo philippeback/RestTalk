@@ -1,0 +1,1 @@
+Rest client modeled after RestAngular.
