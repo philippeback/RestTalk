@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PhilippeBack 10/25/2016 19:48",
+	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"password" ],
-	"name" : "RestTalkConnectionSpec",
+		"collection" ],
+	"name" : "RestTalkCollection",
 	"pools" : [
 		 ],
 	"super" : "Object",

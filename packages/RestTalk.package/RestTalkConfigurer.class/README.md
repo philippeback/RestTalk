@@ -1,0 +1,1 @@
+Provides a centralized registry of configuration for "objects"

@@ -1,0 +1,1 @@
+Exception signaling RestTalk issues unrelated to Rest

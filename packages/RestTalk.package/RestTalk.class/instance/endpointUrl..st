@@ -1,4 +1,4 @@
 accessing
-jiraUrl: aString
+endpointUrl: aString
 	enpointUrl := aString
 	

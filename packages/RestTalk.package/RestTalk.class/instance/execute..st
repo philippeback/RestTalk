@@ -3,7 +3,7 @@ execute: aJiraQuery
 	| client response  |
 	client := self restClient.
 	aJiraQuery isGet ifTrue: [ 
-		response := client get: self jiraUrl , aJiraQuery asUri.
+		response := client get: self endpointUrl , aJiraQuery asUri.
 		(client response statusLine = ZnStatusLine ok) 
 			ifFalse: [ Error signal: 'Cannot retrieve contents ', client response statusLine asString ].
 			self logRequestResponseFor: client.
@@ -11,7 +11,7 @@ execute: aJiraQuery
 		].
 	aJiraQuery isPost ifTrue: [
 		response := client 
-				url: self jiraUrl , aJiraQuery asUri;
+				url: self endpointUrl , aJiraQuery asUri;
 				contents: aJiraQuery asJson;
 				contentType: ZnMimeType applicationJson;
 				post. 
@@ -22,7 +22,7 @@ execute: aJiraQuery
 		].
 	aJiraQuery isDelete ifTrue: [
 		response := client 
-				delete: self jiraUrl , aJiraQuery asUri.
+				delete: self endpointUrl , aJiraQuery asUri.
 		({ZnStatusLine ok. ZnStatusLine noContent. ZnStatusLine accepted} contains: [:each | each = (client response statusLine)])
 			ifFalse: [ Error signal: 'Cannot delete ', client response statusLine asString ].
 		self logRequestResponseFor: client.
@@ -31,7 +31,7 @@ execute: aJiraQuery
 	
 	aJiraQuery isPut ifTrue: [
 		response := client 
-				url: self jiraUrl , aJiraQuery asUri;
+				url: self endpointUrl , aJiraQuery asUri;
 				contents: aJiraQuery asJson; "<-- if empty, we do not need to send"
 				contentType: ZnMimeType applicationJson;
 				put.

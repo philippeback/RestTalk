@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 toString: anObject
 	NeoJSONWriter writeObject: anObject

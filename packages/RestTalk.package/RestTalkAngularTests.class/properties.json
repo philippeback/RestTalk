@@ -1,0 +1,16 @@
+{
+	"category" : "RestTalk-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 10/26/2016 21:40",
+	"instvars" : [
+		"configuration",
+		"configurer",
+		"resttalk" ],
+	"name" : "RestTalkAngularTests",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

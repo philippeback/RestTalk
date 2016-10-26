@@ -1,0 +1,14 @@
+{
+	"category" : "RestTalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 10/26/2016 21:18",
+	"instvars" : [
+		 ],
+	"name" : "RestTalkException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

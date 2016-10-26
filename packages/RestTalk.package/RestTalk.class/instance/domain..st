@@ -1,3 +1,3 @@
 accessing
 domain: aDomainNameString
-	enpointUrl := self jiraUrlTemplate format: { aDomainNameString }
+	enpointUrl := self endpointUrlTemplate format: { aDomainNameString }

@@ -1,4 +1,4 @@
 accessing
-jiraUrl
+endpointUrl
 	^ enpointUrl ifNil: [ self defaultJiraUrl ]
 	

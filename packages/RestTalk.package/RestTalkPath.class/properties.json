@@ -1,0 +1,14 @@
+{
+	"category" : "RestTalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 10/26/2016 22:10",
+	"instvars" : [
+		 ],
+	"name" : "RestTalkPath",
+	"pools" : [
+		 ],
+	"super" : "RestTalkBaseCreator",
+	"type" : "normal" }

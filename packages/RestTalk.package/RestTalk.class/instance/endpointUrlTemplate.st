@@ -1,4 +1,4 @@
 accessing-endpoint
-jiraUrlTemplate
+endpointUrlTemplate
 	^'https://{1}'
 	

@@ -1,0 +1,37 @@
+{
+	"category" : "RestTalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 10/25/2016 19:48",
+	"instvars" : [
+		"username",
+		"password",
+		"endpontUrl",
+		"endpointUrl",
+		"absoluteUrl",
+		"baseUrl",
+		"extraFields",
+		"defaultHttpFields",
+		"plainByDefault",
+		"defaults",
+		"encodeIds",
+		"defaultRequestParams",
+		"defaultHeaders",
+		"overriders",
+		"jsonp",
+		"urlCreator",
+		"resttalkFields",
+		"resttalked",
+		"responseInterceptors",
+		"responseExtractor",
+		"errorInterceptors",
+		"suffix",
+		"transformers",
+		"requestSuffix" ],
+	"name" : "RestTalkConfiguration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
